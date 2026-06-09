@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220" fill="none">
+  <!-- Crown -->
+  <path d="M60 38 L72 22 L88 30 L100 18 L112 30 L128 22 L140 38" stroke="#D4AF37" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M68 38 Q100 48 132 38" fill="none" stroke="#D4AF37" stroke-width="5"/>
+  <!-- Shield -->
+  <path d="M40 52 L160 52 Q175 85 160 140 Q100 185 40 140 Q25 85 40 52" fill="#D4AF37" stroke="#B8860B" stroke-width="4"/>
+  <!-- Inner shield bevel -->
+  <path d="M52 60 L148 60 Q160 88 148 130 Q100 168 52 130 Q40 88 52 60" fill="none" stroke="#F5E6A3" stroke-width="2" opacity="0.6"/>
+  <!-- Cannabis Leaf (stylized 7-finger) -->
+  <g fill="#0A2F1F" stroke="#B8860B" stroke-width="1.5">
+    <!-- Center finger -->
+    <path d="M100 68 L100 138 Q96 148 100 155"/>
+    <!-- Side fingers -->
+    <path d="M100 78 Q78 92 68 115"/>
+    <path d="M100 78 Q122 92 132 115"/>
+    <path d="M100 92 Q72 108 62 132"/>
+    <path d="M100 92 Q128 108 138 132"/>
+    <path d="M100 108 Q68 125 58 145"/>
+    <path d="M100 108 Q132 125 142 145"/>
+  </g>
+  <!-- Leaf veins -->
+  <g stroke="#F5E6A3" stroke-width="1.2" opacity="0.7">
+    <path d="M100 72 L100 150"/>
+    <path d="M100 85 L72 105"/>
+    <path d="M100 85 L128 105"/>
+    <path d="M100 100 L65 120"/>
+    <path d="M100 100 L135 120"/>
+  </g>
+  <!-- Small decorative base on shield -->
+  <circle cx="100" cy="158" r="3.5" fill="#B8860B"/>
+</svg>

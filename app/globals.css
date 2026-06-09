@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050a08;
+  --foreground: #ffffff;
+  --gold: #d4af37;
+  --gold-dark: #a8841e;
+  --silver: #c0c0c0;
+  --bronze: #cd7f32;
+  --red: #9f1239;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  /* Rich modern dark with subtle depth — no busy full-page image */
+  background-image: linear-gradient(to bottom, #050a08 0%, #030605 100%);
+}
+
+.font-display {
+  font-family: var(--font-geist-mono), Georgia, serif;
+  font-weight: 600;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.065);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Modern Tahoe hero overlay layers */
+.tahoe-hero {
+  background-image: url('/images/tahoe-hero.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+}
+
+/* Layered gradient for elegant text contrast and modern depth (darker bottom for headlines, subtle vignette) */
+.tahoe-overlay {
+  background: 
+    linear-gradient(to bottom, rgba(3,6,5,0.35) 0%, rgba(3,6,5,0.25) 28%, rgba(3,6,5,0.55) 52%, rgba(3,6,5,0.82) 78%, rgba(3,6,5,0.92) 100%),
+    radial-gradient(ellipse at center, transparent 40%, rgba(3,6,5,0.35) 78%);
+}
+
+.product-card img {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.map-container {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.state-path {
+  transition: fill 0.15s ease, stroke 0.15s ease;
+}
+
+.state-path:hover {
+  stroke: #d4af37;
+  stroke-width: 1.5;
+}
